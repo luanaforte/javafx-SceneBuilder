@@ -1,18 +1,26 @@
-## Getting Started
+# Academia dos Devs - JavaFX Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto simples em JavaFX que carrega uma interface definida em FXML.
 
-## Folder Structure
+## Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+- `layout.fxml`: Arquivo FXML que define a interface gráfica. Contém um `VBox` com um `AnchorPane`, um `Label` e um `TextField`.
+- `App.java`: Classe principal que carrega o FXML e exibe a janela principal do aplicativo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como executar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Requisitos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- JDK 11 ou superior
+- JavaFX SDK compatível (configurado no seu projeto)
+- IDE ou ambiente para compilar e executar aplicações Java (Ex: IntelliJ, Eclipse)
 
-## Dependency Management
+### Passos para executar
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Certifique-se de ter o JavaFX configurado no seu ambiente. Caso esteja usando Maven/Gradle, configure as dependências correspondentes.
+2. Compile a classe `App.java`.
+3. Execute a aplicação:
+
+```bash
+java App
+
